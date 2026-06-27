@@ -1,6 +1,5 @@
 <?php
-// Gunakan angka 0 agar tidak memanggil konstanta apa pun
-error_reporting(0);
-ini_set('display_errors', '0');
+error_reporting(E_ALL);
+ini_set('display_errors', '1'); // Aktifkan error hanya sementara untuk diagnosa
 
 require __DIR__ . '/../public/index.php';
